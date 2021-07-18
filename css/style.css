@@ -1,0 +1,101 @@
+html {
+    width: 100vw;
+}
+
+body {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+}
+
+ul li a span {
+    border-radius: 2px;
+    border: 1px solid #00cccc;
+    color: #00cccc;
+}
+
+ul li a, ul li a i {
+    color: #00cccc;
+}
+
+main>div {
+    margin: 2px;
+    border: 1px solid #00cccc;
+}
+
+#log-out {
+    display: none;
+}
+
+#lane-post {
+    width: 100%;
+    display: none;
+}
+
+#lane-search {
+    width: 100%;
+    display: none;
+}
+
+#lane-notification {
+    width: 100%;
+    display: none;
+}
+
+#lane-log-in {
+    width: 100%;
+    display: none;
+}
+
+#lane-log-out {
+    width: 100%;
+    display: none;
+}
+
+.lane.post,
+.lane.search,
+.lane.notification,
+.lane.timeline {
+    text-align: center;
+    color: #00cccc;
+}
+
+.text {
+    display: flex;
+    margin: 8px 2px;
+    border-top: 1px solid #00cccc;
+}
+
+dl {
+    margin: 0;
+}
+
+dd {
+    margin: 0;
+}
+
+dt {
+    font-size: 0.75em;
+    color: #666666;
+}
+
+.avatar {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0.75em;
+    text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+    font-weight: bold;
+}
+
+.text .time {
+    color: gray;
+}
